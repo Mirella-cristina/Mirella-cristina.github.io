@@ -2,11 +2,11 @@
 	import { outros } from '$lib/outros';
 	import { javascript } from '$lib/javascript';
     import { python } from '$lib/python';
-	let frameworks = [...outros, ...javascript,...python];
+	let frameworks = [...outros, ...javascript, ...python];
 </script>
 
 <div class="container">
-	<h1>Um pouco sobre os Frameworks</h1>
+	<h1 class="titulo">Um pouco sobre os Frameworks</h1>
 	<div class="intro">
 		<h2>O que é um Framework?</h2>
 		<p class="maior">
@@ -32,6 +32,12 @@
 </div>
 
 <style>
+	.titulo {
+		text-align: center;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+	}
+
 	.framework-card {
 		display: flex;
 		align-items: center;
@@ -45,6 +51,7 @@
 			box-shadow 0.3s;
 		background-color: #fff;
 	}
+
 	.maior {
 		font-size: 20px;
 	}

@@ -79,16 +79,7 @@
   </style>
   
   <div class="container">
-    <h1>Um pouco sobre os Frameworks</h1>
-    <div class="intro">
-        <h2>O que é um Framework?</h2>
-        <p class="maior">
-            Framework é um conjunto de bibliotecas que abordam funcionalidades e estruturas para o desenvolvimento de aplicações.
-        </p>
-        <p class="maior">
-            Ele fornece soluções para problemas comuns, permitindo a reutilização do código e otimizando o desenvolvimento de software.
-        </p>
-    </div>
+    
   
     {#each frameworks as framework}
         <div class="framework-card">
