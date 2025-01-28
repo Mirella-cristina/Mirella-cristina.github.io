@@ -1,8 +1,5 @@
 <script>
-	import { outros } from '$lib/outros';
-	import { javascript } from '$lib/javascript';
-    import { python } from '$lib/python';
-	let frameworks = [...outros, ...javascript,...python];
+	import { javascript as frameworks } from '$lib/javascript';
 </script>
 
 <div class="container">
